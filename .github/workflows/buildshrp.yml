@@ -58,7 +58,7 @@ jobs:
        - name: Building SHRP
          run: |
              cd work
-             export ALLOW_MISSING_DEPENDENCIES=true &&. build/envsetup.sh &&lunch omni_$DEVICE-eng &&mka $TARGET
+             export ALLOW_MISSING_DEPENDENCIES=true &&. build/envsetup.sh &&lunch twrp_$DEVICE-eng &&mka $TARGET
              
        - name: Uploading SHRP recovery image
          run: |
