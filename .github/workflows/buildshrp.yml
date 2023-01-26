@@ -17,9 +17,9 @@ on:
 
 env:
   MANIFEST: https://github.com/SHRP/platform_manifest_twrp_omni.git -b shrp-12.1
-  DEVICE: RMX2151
+  DEVICE: RMX2001
   DT_LINK: https://github.com/Gofaraway71/shrp_twrp_RMX2001
-  DT_PATH: device/realme/RMX2151
+  DT_PATH: device/realme/RMX2001
   CHAT_ID: ${{ secrets.TEST_CHAT_ID }}
   BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
   TARGET: recoveryimage
